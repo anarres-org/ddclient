@@ -1,0 +1,14 @@
+---
+# ddclient configurations
+
+ddclient_daemon_period: 60
+ddclient_enable_syslog: 'yes'
+
+ddclient_web:
+ddclient_protocol:
+ddclient_server:
+
+ddclient_login:
+ddclient_pass:
+
+ddclient_updated_domain: '@'

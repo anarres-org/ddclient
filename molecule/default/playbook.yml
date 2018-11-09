@@ -1,0 +1,12 @@
+---
+
+- name: Converge
+  hosts: all
+  roles:
+    - role: ddclient
+      ddclient_web: dynamicdns.park-your-domain.com/getip
+      ddclient_protocol: freedns
+      ddclient_server: freedns.afraid.org
+      ddclient_login: user
+      ddclient_pass: pass
+      ddclient_updated_domain: somedomain.mooo.com

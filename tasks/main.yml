@@ -1,0 +1,23 @@
+---
+
+- name: Install ddclient
+  become: true
+  package:
+    name: ddclient
+    state: present
+
+- name: Enable ddclient
+  become: true
+  service:
+    name: ddclient
+    enabled: true
+
+- name: Configure ddclient
+  become: true
+  template:
+    src: ddclient.conf.j2
+    dest: /etc/ddclient.conf
+    owner: root
+    mode: 'u=rw,g=,o='
+  notify:
+    Restart DDclient
