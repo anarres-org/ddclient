@@ -60,4 +60,4 @@ GPLv3
 
 ## Author Information
 
-m0wer *at* autistici *dot* org
+m0wer (at) autistici.org
