@@ -1,6 +1,6 @@
 # DDclient
 
-Ansible role to install configure
+Ansible role to install and configure
 [ddclient](https://sourceforge.net/projects/ddclient/).
 
 ## Compatibility
