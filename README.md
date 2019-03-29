@@ -21,7 +21,7 @@ None.
 * `ddclient_server`: Server to send the updates to, depends on the protocol.
 * `ddclient_login`: Your user to login to that server.
 * `ddclient_pass`: Your password to login to that server.
-* `ddclient_updated_domain`: Domain to update, '@' by default to update all.
+* `ddclient_updated_domain`: Domain to update.
 
 **Note**: You should define at least all the variables that don't have a
 default value in *defaults/main.yml*.

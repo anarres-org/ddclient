@@ -11,4 +11,4 @@ ddclient_server:
 ddclient_login:
 ddclient_pass:
 
-ddclient_updated_domain: '@'
+ddclient_updated_domain:
