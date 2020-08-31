@@ -5,7 +5,7 @@ Ansible role to install and configure
 
 ## Compatibility
 
-Tested on debian stretch.
+Tested on debian buster.
 
 ## Requirements
 
@@ -60,4 +60,4 @@ GPLv3
 
 ## Author Information
 
-m0wer (at) autistici.org
+* m0wer: m0wer (at) autistici (dot) org
